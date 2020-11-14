@@ -39,3 +39,7 @@ a {
 img {
   max-width: 100%;
 }
+
+.chartContainer {
+  height: 100vh;
+}

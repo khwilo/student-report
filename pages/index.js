@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from '../container/Header';
+import Main from '../container/Main';
 
 import styles from '../styles/Home.module.css';
 
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <Header />
+      <Main />
     </div>
   );
 }
