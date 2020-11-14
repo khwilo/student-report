@@ -1,0 +1,30 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 35em) {
+  .profile {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.profileImage {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.profileName {
+  text-align: center;
+}
+
+@media (min-width: 35em) {
+  .profileName {
+    text-align: left;
+  }
+}

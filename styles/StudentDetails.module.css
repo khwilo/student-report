@@ -1,0 +1,11 @@
+.studentDetail {
+  display: flex;
+}
+
+.studentDetailTitle {
+  font-weight: 700;
+}
+
+.studentDetailInfo {
+  margin-left: 0.5rem;
+}

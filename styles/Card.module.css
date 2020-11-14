@@ -1,0 +1,25 @@
+.card {
+  background-color: #4fc3f7;
+  flex-basis: 48%;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 80px;
+}
+
+.card + .card {
+  margin-top: 1rem;
+}
+
+@media (min-width: 35em) {
+  .card + .card {
+    margin-top: 0;
+  }
+}
+
+.cardTitle {
+  color: var(--clr-white);
+}
+
+.cardValue {
+  font-style: italic;
+}

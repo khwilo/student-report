@@ -1,17 +1,17 @@
 import Head from 'next/head';
+import Header from '../container/Header';
+
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Student Report</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>
-        <h1>Student Report</h1>
-      </main>
+      <Header />
     </div>
   );
 }
