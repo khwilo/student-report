@@ -13,16 +13,20 @@ const OverallPositionTable = () => {
     <div>
       <h3>Overall position</h3>
       <table>
-        <tr>
-          <th>Deviation</th>
-          <th>Position Out Of</th>
-          <th>Position</th>
-        </tr>
-        <tr>
-          <td>{overallPosition.deviation}</td>
-          <td>{overallPosition.position_out_of}</td>
-          <td>{overallPosition.position}</td>
-        </tr>
+        <thead>
+          <tr>
+            <th>Deviation</th>
+            <th>Position Out Of</th>
+            <th>Position</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{overallPosition.deviation}</td>
+            <td>{overallPosition.position_out_of}</td>
+            <td>{overallPosition.position}</td>
+          </tr>
+        </tbody>
       </table>
     </div>
   );

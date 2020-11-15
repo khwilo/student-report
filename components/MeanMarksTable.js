@@ -13,14 +13,18 @@ const MeanMarksTable = () => {
     <div>
       <h3>Mean Marks</h3>
       <table>
-        <tr>
-          <th>Deviation</th>
-          <th>Average Score</th>
-        </tr>
-        <tr>
-          <td>{meanMarks.deviation}</td>
-          <td>{meanMarks.avg_score}</td>
-        </tr>
+        <thead>
+          <tr>
+            <th>Deviation</th>
+            <th>Average Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{meanMarks.deviation}</td>
+            <td>{meanMarks.avg_score}</td>
+          </tr>
+        </tbody>
       </table>
     </div>
   );

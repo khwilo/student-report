@@ -13,16 +13,20 @@ const StreamPositionTable = () => {
     <div>
       <h3>Stream position</h3>
       <table>
-        <tr>
-          <th>Deviation</th>
-          <th>Position Out Of</th>
-          <th>Position</th>
-        </tr>
-        <tr>
-          <td>{streamPosition.deviation}</td>
-          <td>{streamPosition.position_out_of}</td>
-          <td>{streamPosition.position}</td>
-        </tr>
+        <thead>
+          <tr>
+            <th>Deviation</th>
+            <th>Position Out Of</th>
+            <th>Position</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{streamPosition.deviation}</td>
+            <td>{streamPosition.position_out_of}</td>
+            <td>{streamPosition.position}</td>
+          </tr>
+        </tbody>
       </table>
     </div>
   );
