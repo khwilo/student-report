@@ -9,7 +9,7 @@ import styles from '../styles/Main.module.css';
 const Main = () => {
   return (
     <div className={styles.main}>
-      <div>
+      <div className={styles.tables}>
         <OverallPositionTable />
         <StreamPositionTable />
         <MeanMarksTable />
