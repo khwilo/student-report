@@ -1,1 +1,6 @@
-
+@media (min-width: 35em) {
+  .header {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
